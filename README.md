@@ -1,16 +1,45 @@
-# React + Vite
+# GitHub Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive GitHub Profile clone built using React and Vite. This frontend application replicates the premium dark-mode aesthetic of GitHub and includes interactive features for managing repositories and projects.
 
-Currently, two official plugins are available:
+### 🔗 Live Demo
+[View Live Project Demo](https://e25b071235-maker.github.io/Github-clone)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Dark Mode UI:** A pixel-perfect recreation of GitHub's iconic dark theme.
+- **Tabbed Navigation:** Seamlessly route between Overview, Repositories, and Projects tabs without page reloads.
+- **Local Storage Persistence:** Create new repositories and projects using the built-in forms. Your data is automatically saved locally in your browser!
+- **Interactive UI Elements:** Functional state toggles, such as the dynamically updating "Follow" button.
+- **Reusable Components:** Clean and modular React architecture separating layout, routing, and data presentation.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **Framework:** React (via Vite)
+- **Styling:** Vanilla CSS with custom CSS variables
+- **Icons:** Lucide React & React Icons
+- **State Management:** React Hooks (`useState`, custom `useLocalStorage`)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Running Locally
+
+To run this project on your local machine:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/e25b071235-maker/Github-clone.git
+   ```
+2. Navigate into the directory:
+   ```bash
+   cd Github-clone
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## 👥 Contributors
+Built as part of a WAP Group Project.
