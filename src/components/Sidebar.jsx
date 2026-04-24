@@ -36,7 +36,7 @@ const Sidebar = () => {
       <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', fontSize: '14px' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
           <MapPin size={16} color="var(--text-muted)" />
-          <span>San Francisco, CA</span>
+          <span>Pune, India</span>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
           <LinkIcon size={16} color="var(--text-muted)" />
