@@ -1,34 +1,32 @@
-# GitHub Clone
+# GitHub Profile Clone
 
-A modern, responsive GitHub Profile clone built using React and Vite. This frontend application replicates the premium dark-mode aesthetic of GitHub and includes interactive features for managing repositories and projects.
+A frontend-only, responsive clone of the GitHub user profile and repository dashboard. Built as part of a collaborative group project.
 
-### 🔗 Live Demo
-[View Live Project Demo](https://e25b071235-maker.github.io/Github-clone)
+## 🚀 Live Demo
+
+[View Live Demo on Vercel](https://github-clone-demo.vercel.app/) *(Replace with your actual Vercel link if different)*
 
 ## ✨ Features
 
-- **Dark Mode UI:** A pixel-perfect recreation of GitHub's iconic dark theme.
-- **Tabbed Navigation:** Seamlessly route between Overview, Repositories, and Projects tabs without page reloads.
-- **Local Storage Persistence:** Create new repositories and projects using the built-in forms. Your data is automatically saved locally in your browser!
-- **Interactive UI Elements:** Functional state toggles, such as the dynamically updating "Follow" button.
-- **Reusable Components:** Clean and modular React architecture separating layout, routing, and data presentation.
+- **Pixel-Perfect Dark Mode UI:** Replicates GitHub's premium dark aesthetic using custom CSS variables.
+- **Dynamic Tab Routing:** Seamlessly switch between the Overview, Repositories, and Projects tabs.
+- **Local Storage Persistence:** Create new repositories and projects; data is saved directly in your browser's `localStorage`.
+- **Interactive Sidebar:** Functional "Follow" button that toggles state and styling dynamically.
 
-## 🚀 Tech Stack
+## 🛠 Tech Stack
 
-- **Framework:** React (via Vite)
-- **Styling:** Vanilla CSS with custom CSS variables
-- **Icons:** Lucide React & React Icons
-- **State Management:** React Hooks (`useState`, custom `useLocalStorage`)
+- **React 18** (Components, Hooks, State)
+- **Vite** (Next Generation Frontend Tooling)
+- **Vanilla CSS** (Custom properties for theming)
+- **Lucide React & React Icons** (UI and brand iconography)
 
-## 🛠️ Running Locally
-
-To run this project on your local machine:
+## 📦 Running Locally
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/e25b071235-maker/Github-clone.git
    ```
-2. Navigate into the directory:
+2. Navigate to the project directory:
    ```bash
    cd Github-clone
    ```
@@ -40,6 +38,3 @@ To run this project on your local machine:
    ```bash
    npm run dev
    ```
-
-## 👥 Contributors
-Built as part of a WAP Group Project.
