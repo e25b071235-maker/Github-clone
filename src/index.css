@@ -229,7 +229,7 @@ a:hover {
   gap: 16px;
   margin-bottom: 16px;
 }
-.repo-filters input {
+.repo-filters input, .form-input {
   flex: 1;
   background-color: var(--bg-color);
   border: 1px solid var(--border-color);
@@ -238,7 +238,7 @@ a:hover {
   border-radius: 6px;
   outline: none;
 }
-.repo-filters input:focus {
+.repo-filters input:focus, .form-input:focus {
   border-color: var(--link-color);
   box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.3);
 }
