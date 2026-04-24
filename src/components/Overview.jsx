@@ -10,10 +10,10 @@ const Overview = ({ repos }) => {
           ayush / README.md
         </h3>
         <div style={{ lineHeight: '1.6' }}>
-          <p style={{ marginBottom: '16px' }}>👋 Hi, I'm Ayush!</p>
-          <p style={{ marginBottom: '16px' }}>🚀 I'm a passionate developer currently working on the WAP Group Project.</p>
-          <p style={{ marginBottom: '16px' }}>🌱 I'm currently learning Advanced React, UI design, and state management.</p>
-          <p>📫 How to reach me: ayush@example.com</p>
+          <p style={{ marginBottom: '16px' }}>Hi, I'm Ayush!</p>
+          <p style={{ marginBottom: '16px' }}>I'm a passionate developer currently working on the WAP Group Project.</p>
+          <p style={{ marginBottom: '16px' }}>I'm currently learning Advanced React, UI design, and state management.</p>
+          <p>How to reach me: ayush@example.com</p>
         </div>
       </div>
       
