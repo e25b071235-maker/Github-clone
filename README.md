@@ -4,7 +4,7 @@ A frontend-only, responsive clone of the GitHub user profile and repository dash
 
 ## 🚀 Live Demo
 
-[View Live Demo on Vercel](https://github-clone-demo.vercel.app/) *(Replace with your actual Vercel link if different)*
+[View Live Demo on Vercel](https://github-clone-wap.vercel.app)
 
 ## ✨ Features
 
